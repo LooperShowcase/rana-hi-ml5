@@ -24,7 +24,6 @@ function setup() {
 }
 
 function herdword(error, results) {
-  console.log(results);
   if (results[0].label === "up") player.jump();
 }
 
